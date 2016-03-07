@@ -7,4 +7,5 @@ public class KandidatMain {
         Kandidat kandidat2 = new Kandidat();
         kandidat1.bandingkan(kandidat2);
     } 
+
 }
