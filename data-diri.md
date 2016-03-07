@@ -1,5 +1,5 @@
 Data Diri
 ===
-Nama :   
-NIM :  
-Kelas :
+Nama :   MUHAMMAD AFFAN ALVYAN
+NIM :  155150201111085
+Kelas :IF - E
