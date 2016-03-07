@@ -1,5 +1,3 @@
-package kandidat;
-
 import java.util.Scanner;
 public class Kandidat {
     Scanner input = new Scanner(System.in);
