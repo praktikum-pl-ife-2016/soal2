@@ -1,4 +1,3 @@
-package SOAL;
 public class mainSoal1 {
     public static void main(String[] args) {
         Soal1 s1 = new Soal1(); 

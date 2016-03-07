@@ -1,4 +1,3 @@
-package SOAL;
 public class Soal1 {   
     private String namaMahasiswa;
     private int noAbsen;
