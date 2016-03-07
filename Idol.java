@@ -61,15 +61,20 @@ System.out.println("Suara : " + m1.nama + " lebih tinggi " + (m1.suara - m2.suar
 System.out.println("Suara : " + m1.nama + " lebih tinggi " + (m2.suara - m1.suara) + " poin.");
 }
 System.out.println("==============================================");
-int total1 = m1.attitude + m1.suara + m1.penampilan;
-int total2 = m2.attitude + m2.suara + m2.penampilan;
-if (total1 > total2){
-int selisih = total1 - total2;
+
+int sum1 = m1.attitude + m1.suara + m1.penampilan;
+
+int sum2 = m2.attitude + m2.suara + m2.penampilan;
+
+if (sum1 > sum2){
+
+int selisih = sum1 - sum2;
+
 System.out.println("Hasil Perbandingan : " +m1.nama+" lebih unggul "+selisih+" poin");
 }
 else
 {
-int selisih = total2 - total1;
+int selisih = sum2 - sum11;
 System.out.println("Hasil Perbandingan : " +m2.nama+" lebih unggul "+selisih+" poin");
 }
 System.out.println("Hasil perbandingan adalah berdarkan jumlah keseluruhan poin");
