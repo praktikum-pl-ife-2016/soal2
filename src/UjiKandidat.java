@@ -1,7 +1,5 @@
 
 
-package ujikandidat;
-
 public class UjiKandidat {
 
    
