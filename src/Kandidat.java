@@ -62,4 +62,5 @@ public class Kandidat {
             System.out.println("Hasil Perbandingan : "+ nama+ " lebih unggul "+" selisih "+ Math.abs(selisihTot)+ " poin");
         System.out.println("Hasil perbandingan adalah berdasarkan jumlah keseluruhan poin");
     }
+
 }
