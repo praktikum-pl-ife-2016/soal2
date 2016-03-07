@@ -1,5 +1,4 @@
 
-package ujikandidat;
 
 public class Kandidat {
      String nama;
