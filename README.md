@@ -5,7 +5,7 @@ Soal Praktikum Pemrograman Lanjut IF-E 2016 BAB II (Constructor dan INstance Met
 * Sebuah idol group sedang mengadakan audisi member baru, bantu team seleksi untuk membandingkan mana kandidat yang lebih tinggi poinnya.  
 Buatlah class **Kandidat** dengan atribut **nama**, **atitude**, **penampilan**, dan **suara**.  
 Kemudian buatlah constructor yang berfungsi untuk mengisi semua atribut dari kandidat saat objek kandidat dibuat.  
-Terakhir buat method **bandingkan()** yang menerima parameter berupa objek **Kandidat** yang berguna untuk membandingkan tiap-tiap atribut yang dimiliki oleh kedua objek.
+Terakhir buat method **bandingkan** yang menerima parameter berupa objek **Kandidat** yang berguna untuk membandingkan tiap-tiap atribut yang dimiliki oleh kedua objek.
   
     * atribut **nama** berisi nama dari kandidat (tipe String).
     * atribut **atitude** berisi poin penilaian atitude dari kandidat (tipe int).
