@@ -1,0 +1,108 @@
+//initialize
+public class kandidat {
+     public String nama;
+     public int att;
+     public int appearance;
+     public int voice;
+    
+     //constructor
+    public kandidat(){}
+
+    
+    public kandidat(String nama, int att, int appearance, int voice) {
+        this.nama = nama;
+        this.att = att;
+        this.appearance = appearance;
+        this.voice = voice;
+    }
+
+     public String getnama() {
+        return nama;
+    }
+
+    public int getatt() {
+        return att;
+    }
+
+    public int getappearance() {
+        return appearance;
+    }
+
+    public int getvoice() {
+        return voice;
+        
+    }
+
+    
+}
+
+public class main {
+    
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        
+        int att,appearance,voice,jml1,jml2,total;
+        
+        System.out.println("SISTEM PEMBANDING PESERTA AUDISI");
+        System.out.println("====================================================");
+        
+        //input 
+        System.out.println("Peserta Pertama / Attitude / Penampilan / Voice \t:");
+        kandidat id1 = new kandidat(in.next(), in.nextInt(), in.nextInt(), in.nextInt());
+
+        System.out.println("Peserta kedua /Point Attitude / Penampilan / Voice \t:");
+        kandidat id2 = new kandidat(in.next(), in.nextInt(), in.nextInt(), in.nextInt());
+        System.out.println(" ");
+       
+        //process
+        System.out.println("Perbandingan antara "+id1.getnama()+"  dan  "+id2.getnama());
+        System.out.println("----------------------------------------------------");
+        System.out.println(" ");
+        if(id1.getatt()>id2.getatt())
+        {
+           att = id1.getatt()-id2.getatt();
+            System.out.println("Attitude "+id1.getnama()+"  Lebih Tinggi "+att+" poin");
+        }else {
+            att = id2.getatt()-id1.getatt();
+            System.out.println("Attitude "+id2.getnama()+"  Lebih Tinggi "+att+" poin");
+        }
+        System.out.println(" ");
+        if(id1.getappearance()>id2.getappearance()){
+            appearance = id1.getappearance()-id2.getappearance();
+            System.out.println("Penampilan "+id1.getnama()+"  Lebih Tinggi  "+appearance+" poin");
+        }else{
+            appearance = id2.getappearance()-id1.getappearance();
+            System.out.println("Penampilan "+id2.getnama()+"  Lebih Tinggi  "+appearance+" poin");
+        }
+        System.out.println(" ");
+        if(id1.getvoice()>id2.getvoice()){
+            voice = id1.getvoice()-id2.getvoice();
+            System.out.println("Suara "+id1.getnama()+"   Lebih Tinggi  "+voice+" poin");
+        }else{
+            voice = id2.getvoice()-id1.getvoice();
+            System.out.println("Suara "+id2.getnama()+"   Lebih Tinggi  "+voice+" poin");
+        } 
+        
+        System.out.println("====================================================");
+        
+        //output
+        jml1 = id1.getatt()+id1.getappearance()+id1.getvoice();
+        jml2 = id2.getatt()+id2.getappearance()+id2.getvoice();
+        
+        if(jml1>jml2){
+            total = jml1-jml2;
+            System.out.println("Hasil Perbandingan: "+id1.getnama()+" lebih unggul "+total+" poin");
+        }else{
+            total = jml2-jml1;
+            System.out.println("Hasil Perbandingan: "+id2.getnama()+" lebih unggul "+total+" poin");
+        }
+        
+        System.out.println("'Hasil Perbandingan adalah berdasarkan jumlah keseluruhan point'");
+        
+        
+    }
+}
+
+    
+
