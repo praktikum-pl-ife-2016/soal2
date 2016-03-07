@@ -1,5 +1,5 @@
 Data Diri
 ===
-Nama :   
-NIM :  
-Kelas :
+Nama :   ADI KURNIAWAN
+NIM :  155150200111061
+Kelas :TIF-E
