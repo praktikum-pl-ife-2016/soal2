@@ -1,5 +1,5 @@
 Data Diri
 ===
-Nama :   
-NIM :  
-Kelas :
+Nama : Mohammad Mahendra
+NIM : 155150207111034
+Kelas : IF - E
