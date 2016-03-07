@@ -15,11 +15,11 @@ Terakhir buat method **bandingkan()** yang menerima parameter berupa objek **Kan
 * Contoh output program : 
 ```
 Perbandingan Poin antara "nama1" dan "nama2" :
-Attitude : "nama1" lebih tinggi
-Penampilan : "nama2" lebih tinggi
-Suara : "nama2" lebih tinggi
+Attitude : "nama1" lebih tinggi "selisih" poin
+Penampilan : "nama2" lebih tinggi "selisih" poin
+Suara : "nama2" lebih tinggi "selisih" poin
 ==============================================
-Hasil Perbandingan : "nama2" lebih unggul
+Hasil Perbandingan : "nama2" lebih unggul "selisih" poin
 "Hasil perbandingan adalah berdarkan jumlah keseluruhan poin"
 ```
 ####Cara pengerjaan :
