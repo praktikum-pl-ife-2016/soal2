@@ -18,7 +18,6 @@ public class Kandidat {
         System.out.print("Suara         : ");
         suara = scan.nextInt();
     }
-
     public void bandingkan(Kandidat x) { //method membandingkan seluruh penilaian
         int selisihAtd = atitude - x.atitude;//menghitung selisih nilai attitude
         int selisihPen = penampilan - x.penampilan;//menghitung selisih nilai penampilan
