@@ -1,5 +1,5 @@
 Data Diri
 ===
-Nama :   
-NIM :  
-Kelas :
+Nama : NINDA SILVIATRICAHYANI
+NIM :  155150201111076
+Kelas : IF - E
